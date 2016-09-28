@@ -26,6 +26,11 @@ Execute
 $ python fileName.py
 ```
 
+- execute node.js code
+```bash
+$ node fileName.js
+```
+
 
 License
 ==============
