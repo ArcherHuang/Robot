@@ -5,10 +5,14 @@ File / Code
 
 |No | Name  | Comment  | 
 |---|---|---|
-|  1 |   |  |
-|  2 |   |  |
-|  3 |   |  |
-|  4 |   |  |
+|  1 |  /NodeJS/google_Language_Detection.js |  |
+|  2 |  /Python/get_microsoft_token.py |  |
+|  3 |  /Python/google_Language_Detection.py |  |
+|  4 |  /Python/google_Translate.py |  |
+|  5 |  /Python/google_text_to_speech.py |  |
+|  6 |  /Python/microsoft_speech_recognition.py |  |
+|  7 |  /Python/microsoft_text_to_speech.py |  |
+|  8 |  turn_on_the_headlights.wav |  |
 
 File Transfer to Linkit Smart 7688
 ==============
