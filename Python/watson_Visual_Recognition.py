@@ -1,4 +1,6 @@
 # -*- coding: UTF-8 -*-
+# http://www.ibm.com/watson/developercloud/doc/visual-recognition/
+# http://www.ibm.com/watson/developercloud/visual-recognition/api/v3/#detect_faces
 
 # ******************************************************************************************
 # Import Package                                                                           #
