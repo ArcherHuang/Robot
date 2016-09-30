@@ -11,10 +11,10 @@ import httplib, json, urllib, base64
 # Get Service API Key and Check Local File or URL                                          #
 # ******************************************************************************************
 
-isImageFromURL = 0
+isImageFromURL = 1
 Config = ConfigParser.ConfigParser()
-Config.read("microsoft_Emotion_config.ini")
-apiKey = Config.get('Emotion', 'apiKey')
+Config.read("microsoft_Computer_Vision_config.ini")
+apiKey = Config.get('ComputerVision', 'apiKey')
 
 # ******************************************************************************************
 # Set Request Header                                                                       #
@@ -30,14 +30,19 @@ headers = {
 	'Ocp-Apim-Subscription-Key': apiKey,
 }
 
+params = urllib.urlencode({
+    'visualFeatures': 'Categories,Tags,Description,Faces,ImageType,Color,Adult',
+    'details': 'Celebrities',
+})
+
 host = 'api.projectoxford.ai'
-requestURL = '/emotion/v1.0/recognize'
-imageURL = "http://i.imgur.com/XR1hU0S.jpg"
+requestURL = "/vision/v1.0/analyze?%s" % params
+imageURL = "http://i.imgur.com/WyfYIwZ.jpg"
 jsonImageURL = { 'url': imageURL } 
 localFilePath = '/Users/Archer/Downloads/recognition2.jpg'
 
 # ******************************************************************************************
-# POST Microsoft Emotion API                                                               #
+# POST Microsoft Computer Vision API                                                       #
 # ******************************************************************************************
 
 try:
