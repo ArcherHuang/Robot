@@ -5,7 +5,7 @@ import json
 from watson_developer_cloud import ToneAnalyzerV3
 
 Config = ConfigParser.ConfigParser()
-Config.read("config.ini")
+Config.read("watson_Tone_Analyzer_config.ini")
 
 userName = Config.get('ToneAnalyzer', 'userName')
 passWord = Config.get('ToneAnalyzer', 'passWord')
