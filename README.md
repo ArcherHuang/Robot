@@ -5,14 +5,24 @@ File / Code
 
 |No | Name  | Comment  | 
 |---|---|---|
-|  1 |  /NodeJS/google_Language_Detection.js |  |
-|  2 |  /Python/get_microsoft_token.py |  |
-|  3 |  /Python/google_Language_Detection.py |  |
-|  4 |  /Python/google_Translate.py |  |
-|  5 |  /Python/google_text_to_speech.py |  |
-|  6 |  /Python/microsoft_speech_recognition.py |  |
-|  7 |  /Python/microsoft_text_to_speech.py |  |
-|  8 |  turn_on_the_headlights.wav |  |
+|  1 |  /Python/aws_Rekognition.py |  |
+|  2 |  /Python/aws_polly.py |  |
+|  3 |  /Python/get_microsoft_token.py |  |
+|  4 |  /Python/google_Language_Detection.py |  |
+|  5 |  /Python/google_Translate.py |  |
+|  6 |  /Python/google_text_to_speech.py |  |
+|  7 |  /Python/microsoft_Computer_Vision.py |  |
+|  8 |  /Python/microsoft_Computer_Vision_config.ini |  |
+|  9 |  /Python/microsoft_Emotion.py |  |
+|  10 |  /Python/microsoft_Emotion_config.ini |  |
+|  11 |  /Python/microsoft_speech_recognition.py |  |
+|  12 |  /Python/microsoft_text_to_speech.py |  |
+|  13 |  /Python/watson_Language_Translator.py |  |
+|  14 |  /Python/watson_Language_Translator_config.ini |  |
+|  15 |  /Python/watson_Tone_Analyzer.py |  |
+|  16 |  /Python/watson_Tone_Analyzer_config.ini |  |
+|  17 |  /Python/watson_Visual_Recognition.py |  |
+|  18 |  /Python/watson_Visual_Recognition_config.ini |  |
 
 File Transfer to Linkit Smart 7688
 ==============
