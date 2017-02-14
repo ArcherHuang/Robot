@@ -25,7 +25,7 @@ File / Code
 |  18 |  Python | watson_Visual_Recognition_config.ini |  |
 |  19 |  NodeJS | google_Language_Detection.js |  |
 
-File Transfer to Linkit Smart 7688
+File Transfer to Development Board
 ==============
 * [傳送檔案與登入到開發板](http://oranwind.org/-linkit/)
 
