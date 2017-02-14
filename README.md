@@ -23,6 +23,7 @@ File / Code
 |  16 |  /Python/watson_Tone_Analyzer_config.ini |  |
 |  17 |  /Python/watson_Visual_Recognition.py |  |
 |  18 |  /Python/watson_Visual_Recognition_config.ini |  |
+|  19 |  google_Language_Detection.js |  |
 
 File Transfer to Linkit Smart 7688
 ==============
